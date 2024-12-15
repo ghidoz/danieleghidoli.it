@@ -8,7 +8,7 @@ export const headerData = {
     },
     {
       text: 'About me',
-      href: '#',
+      href: getPermalink('about-me'),
     },
     {
       text: 'My Nomad Life',
