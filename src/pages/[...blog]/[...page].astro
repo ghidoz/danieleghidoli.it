@@ -8,6 +8,8 @@ import Pagination from '~/components/blog/Pagination.astro';
 // import PostTags from "~/components/blog/Tags.astro";
 
 import { blogListRobots, getStaticPathsBlogList } from '~/utils/blog';
+import Hero from '../../components/widgets/Hero.astro';
+import Image from '../../components/common/Image.astro';
 
 export const prerender = true;
 
@@ -32,16 +34,29 @@ const metadata = {
   openGraph: {
     type: 'blog',
   },
+  isHome: true
 };
 ---
 
 <Layout metadata={metadata}>
-  <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
-    <Headline
-      subtitle="A statically generated blog example with news, tutorials, resources and other interesting content related to AstroWind"
-    >
-      The Blog
-    </Headline>
+  <Hero>
+    <Fragment slot="title">
+      <span class="text-white">
+        Hi, I'm Daniele. <br/>
+        Angular Developer and Traveler</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="text-white">
+        Here I share some Angular tips & tricks that I discover while working remotely around the world
+      </span>
+    </Fragment>
+    
+    <Fragment slot="bg">
+      <Image class="absolute top-0 h-screen w-auto" src="~/assets/images/cover.jpg" alt="Daniele Ghidoli" />
+    </Fragment>
+  </Hero>
+  <section id="start" class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
     <BlogList posts={page.data} />
     <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
     <!--

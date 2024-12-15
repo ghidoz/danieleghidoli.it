@@ -1,30 +1,28 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: Daniele Ghidoli
+  site: 'https://blog.danieleghidoli.it'
   base: '/'
   trailingSlash: false
-
-  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
-
+  
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: Daniele Ghidoli - Angular Tips & Tricks
+    template: '%s — Daniele Ghidoli'
+  description: "Angular Tips & Tricks"
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Daniele Ghidoli - Angular Tips & Tricks
     images:
-      - url: '~/assets/images/default.png'
-        width: 1200
-        height: 628
+      - url: '~/assets/images/cover.jpg'
+        width: 2000
+        height: 1494
     type: website
   twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
+    handle: '@ghidoz'
+    site: '@ghidoz'
     cardType: summary_large_image
 
 i18n:
@@ -38,13 +36,13 @@ apps:
 
     post:
       isEnabled: true
-      permalink: '/%slug%' # Variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
+      permalink: '/%year%/%month%/%day%/%slug%' # Variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
       robots:
         index: true
 
     list:
       isEnabled: true
-      pathname: 'blog' # Blog main path, you can change this to "articles" (/articles)
+      pathname: '' # Blog main path, you can change this to "articles" (/articles)
       robots:
         index: true
 
