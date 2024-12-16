@@ -7,5 +7,5 @@ import Image from './common/Image.astro';
   id="logo"
   class="flex items-center gap-2 ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold whitespace-nowrap dark:text-white"
 >
-  <Image src="~/assets/images/logo.png" width="50" alt={SITE?.name}></Image> {SITE?.name}
+  <Image src={SITE?.logo} width="50" alt={SITE?.name}></Image> {SITE?.name}
 </div>

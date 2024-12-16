@@ -54,6 +54,9 @@
 .is-home #header.sticky a {
   @apply md:text-white md:hover:text-muted;
 }
+#header.sticky #logo {
+  @apply md:hover:text-white
+}
 #header.sticky.scroll nav li a, #header.sticky.scroll #logo {
   @apply md:text-default md:hover:text-default;
 }

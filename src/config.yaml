@@ -3,6 +3,11 @@ site:
   site: 'https://blog.danieleghidoli.it'
   base: '/'
   trailingSlash: false
+  logo: ~/assets/images/logo.png
+  home:
+    title: Hi, I'm Daniele. <br/>Angular Developer and Traveler
+    subtitle: Here I share some Angular tips & tricks that I discover while working remotely around the world
+    cover: ~/assets/images/cover.jpg
   
 # Default SEO metadata
 metadata:
