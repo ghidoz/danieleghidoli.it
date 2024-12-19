@@ -81,6 +81,14 @@ import { UI } from 'astrowind:config';
       setGiscusTheme(localStorage.theme);
     });
 
+    const checkIframe = setInterval(() => {
+      const iframe = document.querySelector('iframe.giscus-frame');
+      if (iframe) {
+        clearInterval(checkIframe);
+        setGiscusTheme(localStorage.theme);
+      }
+    }, 100);
+
     attachEvent('[data-aw-social-share]', 'click', function (_, elem) {
       const network = elem.getAttribute('data-aw-social-share');
       const url = encodeURIComponent(elem.getAttribute('data-aw-url'));
