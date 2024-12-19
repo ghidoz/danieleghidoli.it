@@ -40,6 +40,14 @@ import { UI } from 'astrowind:config';
     }
   }
 
+  function setGiscusTheme(theme) {
+    const iframe = document.querySelector('iframe.giscus-frame');
+    if (!iframe) return;
+    iframe.contentWindow.postMessage({ giscus: {
+        setConfig: { theme }
+    }}, 'https://giscus.app');
+  }
+
   const onLoad = function () {
     let lastKnownScrollPosition = window.scrollY;
     let ticking = true;
@@ -70,6 +78,7 @@ import { UI } from 'astrowind:config';
       }
       document.documentElement.classList.toggle('dark');
       localStorage.theme = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
+      setGiscusTheme(localStorage.theme);
     });
 
     attachEvent('[data-aw-social-share]', 'click', function (_, elem) {
