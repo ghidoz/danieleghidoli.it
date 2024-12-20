@@ -30,24 +30,28 @@ const metadata = {
   openGraph: {
     type: 'blog',
   },
-  hasCover: true
+  hasCover: currentPage === 1
 };
 ---
 
 <Layout metadata={metadata}>
-  <Hero>
-    <Fragment slot="title">
-      <span class="text-white" set:html={SITE.home.title}></span>
-    </Fragment>
+  {
+    currentPage === 1 ?
+        <Hero>
+            <Fragment slot="title">
+                <span class="text-white" set:html={SITE.home.title}></span>
+            </Fragment>
 
-    <Fragment slot="subtitle">
-      <span class="text-white" set:html={SITE.home.subtitle}></span>
-    </Fragment>
-    
-    <Fragment slot="bg">
-      <Image class="absolute top-0 h-screen w-auto" src={SITE.home.cover} alt={SITE.name} />
-    </Fragment>
-  </Hero>
+            <Fragment slot="subtitle">
+                <span class="text-white" set:html={SITE.home.subtitle}></span>
+            </Fragment>
+
+            <Fragment slot="bg">
+                <Image class="absolute top-0 h-screen w-auto bg-gray-400 dark:bg-slate-700" loading="eager" decoding="async" src={SITE.home.cover} alt={SITE.name} />
+            </Fragment>
+        </Hero>
+    : null
+  }
   <section id="start" class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
     <BlogList posts={page.data} />
     <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />

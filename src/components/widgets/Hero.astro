@@ -6,6 +6,7 @@ import type { Hero as Props } from '~/types';
 import { Icon } from 'astro-icon/components';
 
 const {
+  pretitle = await Astro.slots.render('pretitle'),
   title = await Astro.slots.render('title'),
   subtitle = await Astro.slots.render('subtitle'),
   tagline,
@@ -27,8 +28,16 @@ const {
   </div>
   <div class="relative h-screen mx-auto px-4 sm:px-6">
     <div class="pt-0 md:pt-[76px] pointer-events-none"></div>
-    <div class="py-6 md:py-12 absolute bottom-0 left-0 right-0">
+    <div class="py-6 md:py-12 absolute bottom-0 left-0 right-0 bg-gradient-to-b from-transparent to-black/80">
       <div class="max-w-4xl px-6 text-left pb-6 mx-auto">
+        {
+          pretitle && (
+            <div
+              class="intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade"
+              set:html={pretitle}
+            />
+          )
+        }
         {
           tagline && (
             <p
