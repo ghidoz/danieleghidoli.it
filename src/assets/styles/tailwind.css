@@ -101,7 +101,19 @@
   @apply rotate-45 translate-y-[-8px] translate-x-[14px];
 }
 
-/* To deprecated */
+.prose figcaption p {
+  @apply m-0 !important;
+}
+
+.prose figcaption {
+  @apply -mt-6 !important;
+}
+
+.prose iframe {
+  @apply w-full !important;
+}
+
+  /* To deprecated */
 
 .dd *:first-child {
   margin-top: 0;
