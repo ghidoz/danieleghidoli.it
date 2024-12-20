@@ -82,6 +82,10 @@ import { UI } from 'astrowind:config';
     });
 
     const checkIframe = setInterval(() => {
+      const article = document.querySelector('.is-article');
+      if (!article) {
+        clearInterval(checkIframe);
+      }
       const iframe = document.querySelector('iframe.giscus-frame');
       if (iframe) {
         clearInterval(checkIframe);
