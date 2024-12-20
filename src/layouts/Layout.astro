@@ -16,6 +16,7 @@ import BasicScripts from '~/components/common/BasicScripts.astro';
 import { ClientRouter } from 'astro:transitions';
 
 import type { MetaData as MetaDataType } from '~/types';
+import MailchimpPopup from '../components/common/MailchimpPopup.astro';
 
 export interface Props {
   metadata?: MetaDataType;
@@ -35,6 +36,11 @@ const { language, textDirection } = I18N;
     <Metadata {...metadata} />
     <SiteVerification />
     <Analytics />
+    {
+      metadata.openGraph?.type === 'article' ?
+        <MailchimpPopup />
+        : null
+    }
 
     <!-- Comment the line below to disable View Transitions -->
     <ClientRouter fallback="swap" />
