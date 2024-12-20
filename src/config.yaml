@@ -1,29 +1,29 @@
 site:
-  name: Daniele Ghidoli
-  site: 'https://blog.danieleghidoli.it'
+  name: Nomad Life
+  site: 'https://nomad.danieleghidoli.it'
   base: '/'
   trailingSlash: false
   logo: ~/assets/images/logo.png
   home:
-    title: Hi, I'm Daniele. <br/>Angular Developer and Traveler
-    subtitle: Here I share some Angular tips & tricks that I discover while working remotely around the world
+    title: Hi, I'm Daniele. <br/>Web Developer and Digital Nomad
+    subtitle: Here I share some tips and experiences about my travels and my nomad life around the World
     cover: ~/assets/images/cover.jpg
   
 # Default SEO metadata
 metadata:
   title:
-    default: Daniele Ghidoli - Angular Tips & Tricks
-    template: '%s — Daniele Ghidoli'
-  description: "Angular Tips & Tricks"
+    default: Daniele Ghidoli - Nomad Life
+    template: '%s — Nomad Life'
+  description: "Life is Just a Trip. Here I share some tips and experiences about my travels and my nomad life around the World"
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Daniele Ghidoli - Angular Tips & Tricks
+    site_name: Nomad Life - Life is Just a Trip
     images:
       - url: '~/assets/images/cover.jpg'
         width: 2000
-        height: 1494
+        height: 1336
     type: website
   twitter:
     handle: '@ghidoz'

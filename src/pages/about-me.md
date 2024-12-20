@@ -4,16 +4,18 @@ layout: '~/layouts/MarkdownLayout.astro'
 image: '~/assets/images/about-me.jpg'
 ---
 
-Hi there! I'm an Italian Frontend Engineer, traveling through South America as a [**Digital Nomad**](http://nomad.danieleghidoli.it).
+Hi there! I'm an Italian Web Developer, traveling the World as a **digital nomad**.
 
 In 2009 I founded [BigThink](http://www.bigthink.it), my **Digital Agency** focused on developing Facebook Apps and contest. After six years in an office in the grey Milan, I founded [Musikee](https://musikee.com), my own **music startup** and I moved for 4 months in **Fuerteventura**, embracing the Digital Nomad philosophy.
 
-Then I settled down in **Barcelona** for almost 2 years, where I worked as **Angular Developer** for [Wallapop](http://wallapop.com/), the coolest Startup in Spain!
+Then I settled down in **Barcelona** for almost 2 years, where I worked as an **Angular Developer** for [Wallapop](http://wallapop.com/), the coolest Startup in Spain!
 
-Now I'm still working for them as a freelance, while I travel the World with [WifiTribe](http://nomad.danieleghidoli.it/2018/03/24/adventure-digital-nomad-latin-america-wifitribe/). You can check [where I am](http://nomad.danieleghidoli.it/where-i-am/) at the moment!
+On April 2018, I started my adventure in **Latin America**, working remotely as a freelance developer and traveling for 10 months with the [WiFi Tribe community](http://nomad.danieleghidoli.it/2018/03/24/adventure-digital-nomad-latin-america-wifitribe/) of digital nomads.
 
-I also do Angular one to one **mentoring sessions** on [Codementor](https://www.codementor.io/ghido). Don't hesitate to [book a session](https://www.codementor.io/ghido) if you need help!
+From February 2019, I kept traveling **on my own**.
 
-All the photos in the articles of this blog are made by me or my friends (Walter Crispino and Chiara Crispino) during our travels and adventures.
+Things I love: the web, traveling, surf, parkour, capoeira, acrobatics.
 
-If you would like to know more about me, you can read my [travel blog](http://nomad.danieleghidoli.it/) or follow me on [Twitter](https://twitter.com/Ghido) or [Instagram](http://instagram.com/ghidoz/).
+If you would like to know more about me, you can read my [technical blog about Angular](https://blog.danieleghidoli.it/), my personal blog on [Medium](https://medium.com/@ghido) or follow me on [Twitter](https://twitter.com/Ghido) or [Instagram](http://instagram.com/ghidoz/).
+
+Also, check out [my book](https://nomad.danieleghidoli.it/my-books/) about Cuba!

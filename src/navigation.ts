@@ -11,8 +11,8 @@ export const headerData = {
       href: getPermalink('about-me'),
     },
     {
-      text: 'My Nomad Life',
-      href: 'https://nomad.danieleghidoli.it/',
+      text: 'My Books',
+      href: getPermalink('my-books'),
     },
   ],
 };
