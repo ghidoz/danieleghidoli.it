@@ -1,6 +1,7 @@
 ---
 title: 'About Me'
 layout: '~/layouts/MarkdownLayout.astro'
+image: '~/assets/images/about-me.jpg'
 ---
 
 Hi there! I'm an Italian Frontend Engineer, traveling through South America as a [**Digital Nomad**](http://nomad.danieleghidoli.it).

@@ -2,25 +2,53 @@
 import Layout from '~/layouts/PageLayout.astro';
 
 import type { MetaData } from '~/types';
+import { SITE } from 'astrowind:config';
+import Hero from '../components/widgets/Hero.astro';
+import Image from '../components/common/Image.astro';
+import { findImage } from '../utils/images';
+import type { ImageMetadata } from 'astro';
 
 export interface Props {
   frontmatter: {
     title?: string;
+    image?: string;
   };
 }
 
 const { frontmatter } = Astro.props;
 
+const image = (await findImage(frontmatter.image)) as ImageMetadata | string | undefined;
+
 const metadata: MetaData = {
   title: frontmatter?.title,
+  hasCover: !!image
 };
+
 ---
 
 <Layout metadata={metadata}>
+  {
+    image ?
+      <Hero>
+        <Fragment slot="title">
+          <span class="text-white" set:html={frontmatter.title}></span>
+        </Fragment>
+    
+        <Fragment slot="bg">
+          <Image class="absolute top-0 h-screen w-auto" src={image} alt={frontmatter.title} />
+        </Fragment>
+      </Hero>
+    : null
+  }
   <section class="px-4 py-16 sm:px-6 mx-auto lg:px-8 lg:py-20 max-w-4xl">
-    <h1 class="font-bold font-heading text-4xl md:text-5xl leading-tighter tracking-tighter">{frontmatter.title}</h1>
+    {
+      !image ?
+      <h1 class="font-bold font-heading text-4xl md:text-5xl leading-tighter tracking-tighter">{frontmatter.title}</h1>
+      : null
+    }
     <div
-      class="mx-auto prose prose-lg max-w-4xl dark:prose-invert dark:prose-headings:text-slate-300 prose-md prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-img:rounded-md prose-img:shadow-lg mt-8"
+      class="mx-auto prose prose-lg max-w-4xl dark:prose-invert dark:prose-headings:text-slate-300 prose-md prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-img:rounded-md prose-img:shadow-lg"
+      class:list={[{'mt-8': !image}]}
     >
       <slot />
     </div>

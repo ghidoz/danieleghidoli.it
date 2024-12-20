@@ -47,11 +47,11 @@
   @apply bg-page md:bg-[#0d1117] border-b border-gray-500/20;
   box-shadow: none;
 }
-.is-home #header.sticky nav li a {
+.has-cover #header.sticky nav li a {
   @apply md:text-white md:hover:text-white;
 }
-.is-home #header.sticky button,
-.is-home #header.sticky a {
+.has-cover #header.sticky button,
+.has-cover #header.sticky a {
   @apply md:text-white md:hover:text-muted;
 }
 #header.sticky #logo {
