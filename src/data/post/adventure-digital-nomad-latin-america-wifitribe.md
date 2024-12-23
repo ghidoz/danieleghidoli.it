@@ -2,10 +2,10 @@
 title: "My one-year adventure as a Digital Nomad in Latin America is about to start!"
 publishDate: 2018-03-24T15:27:52.000Z
 excerpt: "So many goodbyes during the last week! After two years in Barcelona, in a few days I'm leaving for a one-way trip to Quito, Ecuador...."
-category: "south-america"
+category: "Latin America"
 tags: 
-  - "remote-work"
-  - "wifitribe"
+  - "remote work"
+  - "WifiTribe"
 image: "~/assets/images/latin-america.jpg"
 ---
 

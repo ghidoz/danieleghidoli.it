@@ -2,9 +2,10 @@
 title: "Cordoba: my first experience as a solo traveler"
 publishDate: 2018-09-18T19:38:54.000Z
 excerpt: "I have been traveling with for five months so far: it's very easy and comfortable to have everything set up, from the apartment to the..."
-category: "argentina"
+category: "Latin America"
 tags: 
   - "couchsurfing"
+  - "Argentina"
 image: "~/assets/images/cordoba.jpg"
 ---
 

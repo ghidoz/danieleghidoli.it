@@ -2,10 +2,10 @@
 title: "Living as a Digital Nomad in Quito with WifiTribe"
 publishDate: 2018-05-29T05:11:38.000Z
 excerpt: "I have lived in Quito for the last month: the first \"chapter\" of my digital nomad experience with was great! I'm already in Lima while..."
-category: "ecuador"
+category: "Latin America"
 tags: 
-  - "amazon"
-  - "wifitribe"
+  - "Ecuador"
+  - "WifiTribe"
 image: "~/assets/images/swing.jpg"
 ---
 

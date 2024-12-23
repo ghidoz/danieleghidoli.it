@@ -2,11 +2,11 @@
 title: "Patagonia: journey among penguins, glaciers and blue lakes"
 publishDate: 2018-11-08T14:41:55.000Z
 excerpt: "If I have to describe Patagonia in two words, I would say: blue and windy. Blue, because lakes, lagoons and glaciers are so deeply blue..."
-category: "argentina"
+category: "Latin America"
 tags: 
   - "glacier"
-  - "hiking"
-  - "penguins"
+  - "Argentina"
+  - "road trip"
 image: "~/assets/images/patagonia-torres-del-paine.jpg"
 ---
 

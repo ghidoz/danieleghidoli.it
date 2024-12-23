@@ -2,12 +2,10 @@
 title: "Tenerife in 7 days: adventure, hiking and nature"
 publishDate: 2018-01-15T23:17:00.000Z
 excerpt: "I have been to all the main Canary Islands, but my favorite is Tenerife, when talking about hiking in nature: it spans from volcanic landscapes..."
-category: "canary-islands"
+category: "Canary Islands"
 tags: 
-  - "hiking"
-  - "nature"
-  - "stars"
-  - "volcano"
+  - "Tenerife"
+  - "volcanoes"
 image: "~/assets/images/teide-tenerife.jpg"
 ---
 

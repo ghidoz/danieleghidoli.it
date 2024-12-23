@@ -2,13 +2,9 @@
 title: "2 weeks of Surf Camp in Las Palmas de Gran Canaria"
 publishDate: 2018-01-06T20:00:41.000Z
 excerpt: "You have finally decided you deserve that surf holiday in Gran Canaria you have been thinking about for months. Now what? If you are interested..."
-category: "canary-islands"
+category: "Canary Islands"
 tags: 
-  - "beach"
-  - "hiking"
-  - "hostel"
-  - "surf"
-  - "tapas"
+  - "Gran Canaria"
 image: "~/assets/images/las-palmas-beach.jpg"
 ---
 

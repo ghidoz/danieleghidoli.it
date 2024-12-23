@@ -2,10 +2,9 @@
 title: "The best weekend trips from Mexico City"
 publishDate: 2019-08-22T23:35:24.000Z
 excerpt: "I lived in Mexico City for a couple of months and I had a great time, but the truth is that I’m not in love..."
-category: "center-america"
+category: "Latin America"
 tags: 
-  - "archeological-sites"
-  - "pyramids"
+  - "Mexico"
   - "weekend-trips"
 image: "~/assets/images/teotihuacan.jpg"
 ---

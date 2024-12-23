@@ -2,12 +2,9 @@
 title: "7 Tips to eat and drink (almost) for free in Barcelona"
 publishDate: 2018-01-29T18:36:36.000Z
 excerpt: "Do you think Barcelona is expensive? If you drink a sangria on the Rambla or eat a paella in a touristic restaurant near the beach,..."
-category: "barcelona"
+category: "Europe"
 tags: 
-  - "cheap"
-  - "drink"
-  - "eat"
-  - "free"
+  - "Barcelona"
 image: "~/assets/images/free-drink-barcelona.jpg"
 ---
 

@@ -2,10 +2,10 @@
 title: "My new book is out: that time I was stuck in Cambodia for five months due to Covid"
 publishDate: 2022-12-19T09:01:31.000Z
 excerpt: "When the pandemic broke out in 2020, I was in Siem Reap, Cambodia. The world started to collapse on its own, borders shut down, countries..."
-category: "asia"
+category: "Asia"
 tags: 
   - "book"
-  - "cambodia"
+  - "Cambodia"
 image: "~/assets/images/my-cambodia-book.jpg"
 ---
 

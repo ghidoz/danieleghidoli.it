@@ -2,13 +2,11 @@
 title: "Van Life: Kicking Off Our Full-Time Campervan Journey"
 publishDate: 2024-08-18T19:36:03.000Z
 excerpt: "Two weeks into our Van Life and we’re still loving it. Thank goodness, considering the huge investment we made to buy and customize our campervan!..."
-category: "italy"
+category: "Europe"
 tags: 
-  - "hiking"
-  - "nature"
-  - "parking"
-  - "road-trip"
-  - "sud-tyrol"
+  - "Italy"
+  - "campervan"
+  - "road trip"
 image: "~/assets/images/lance2.jpg"
 ---
 

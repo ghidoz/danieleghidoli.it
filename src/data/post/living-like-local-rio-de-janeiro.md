@@ -2,10 +2,10 @@
 title: "Living like a local in Rio de Janeiro"
 publishDate: 2018-09-11T21:55:58.000Z
 excerpt: "I have just left Rio de Janeiro after a month spent there with and I'm already looking forward to coming back! For me, Rio is..."
-category: "brazil"
+category: "Latin America"
 tags: 
-  - "rio-de-janeiro"
-  - "wifitribe"
+  - "Brazil"
+  - "WifiTribe"
 image: "~/assets/images/rio-de-janeiro-view.jpg"
 ---
 

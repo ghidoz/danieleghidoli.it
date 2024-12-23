@@ -2,9 +2,9 @@
 title: "60 Amazing things I did in one year of travel in Latin America"
 publishDate: 2019-04-05T16:17:18.000Z
 excerpt: "Exactly one year ago I was landing in . My one-way ticket in one hand and my suitcase in the other. A suitcase full of..."
-category: "argentina"
+category: "Latin America"
 tags: 
-  - "wifitribe"
+  - "WifiTribe"
 image: "~/assets/images/guatape.jpg"
 ---
 

@@ -2,9 +2,11 @@
 title: "A 4 days road trip by campervan in the Atacama Desert"
 publishDate: 2018-09-03T21:31:03.000Z
 excerpt: "The Atacama Desert is a must to see in Chile. Its variety of landscapes is stunning: one day you are walking in a moony desert,..."
-category: "chile"
+category: "Latin America"
 tags: 
-  - "road-trip"
+  - "road trip"
+  - "campervan"
+  - "Chile"
 image: "~/assets/images/roadtrip.jpg"
 ---
 

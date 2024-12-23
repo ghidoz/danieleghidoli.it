@@ -2,14 +2,12 @@
 title: "The definitive 9-day road trip itinerary in West and South Iceland"
 publishDate: 2019-06-14T15:27:31.000Z
 excerpt: "Planning a 9-day road trip in West and South Iceland? I got you covered: I just came back from an amazing road trip to Iceland..."
-category: "europe"
+category: "Europe"
 tags: 
+  - "Iceland"
+  - "road trip"
+  - "volcanoes"
   - "glacier"
-  - "hiking"
-  - "nature"
-  - "road-trip"
-  - "volcano"
-  - "waterfalls"
 image: "~/assets/images/iceland.jpg"
 ---
 

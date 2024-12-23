@@ -2,14 +2,10 @@
 title: "Fuerteventura in 4 days: dunes, beaches and volcanos"
 publishDate: 2018-02-19T23:45:43.000Z
 excerpt: "I lived for four months in Fuerteventura working remotely and I saw almost everything the island has to offer. Twice. Or maybe three times. So,..."
-category: "canary-islands"
+category: "Canary Islands"
 tags: 
-  - "beach"
-  - "dunes"
-  - "lighthouse"
-  - "surf"
-  - "tapas"
-  - "volcano"
+  - "Fuerteventura"
+  - "volcanoes"
 image: "~/assets/images/fuerteventura.jpg"
 ---
 

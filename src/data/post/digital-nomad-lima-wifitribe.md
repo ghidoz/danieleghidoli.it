@@ -2,9 +2,10 @@
 title: "A month in Lima as a Digital Nomad"
 publishDate: 2018-06-26T13:11:44.000Z
 excerpt: "When I told the taxi driver that I would have spent an entire month in Lima, he looked at me as I was crazy. According..."
-category: "peru"
-tags: 
-  - "wifitribe"
+category: "Latin America"
+tags:
+  - "Peru"
+  - "WifiTribe"
 image: "~/assets/images/lima-digital-nomad.jpg"
 ---
 
