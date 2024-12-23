@@ -69,9 +69,9 @@ apps:
 analytics:
   vendors:
     googleAnalytics:
-      id: 'G-03Q07P1G9F'
+      id: 'G-1JLJSZT1GD'
     mailchimp:
-      id: 'e629fe468a4ca3013bda99dfe/d88845295aaf893c67d9a2b77'
+      id: 'e629fe468a4ca3013bda99dfe/732863dd22620a0a801398cae'
 
 ui:
   theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
