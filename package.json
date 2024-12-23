@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro build && node scripts/generateRedirects.js",
     "preview": "astro preview",
     "astro": "astro",
     "check": "npm run check:astro && npm run check:eslint && npm run check:prettier",
@@ -30,6 +30,7 @@
     "astro": "^5.0.3",
     "astro-embed": "^0.9.0",
     "astro-icon": "^1.1.4",
+    "csv-parser": "^3.1.0",
     "limax": "4.1.0",
     "lodash.merge": "^4.6.2",
     "unpic": "^3.22.0"
