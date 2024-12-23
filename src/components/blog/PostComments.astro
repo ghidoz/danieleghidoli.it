@@ -1,8 +1,12 @@
+---
+import { ANALYTICS } from 'astrowind:config';
+---
+
 <script src="https://giscus.app/client.js"
         data-repo="ghidoz/danieleghidoli.it"
         data-repo-id="R_kgDONd8WNA"
-        data-category="Blog Post Comments"
-        data-category-id="DIC_kwDONd8WNM4ClXy_"
+        data-category={ANALYTICS.vendors.giscus.category}
+        data-category-id={ANALYTICS.vendors.giscus.categoryId}
         data-mapping="url"
         data-strict="0"
         data-reactions-enabled="1"
