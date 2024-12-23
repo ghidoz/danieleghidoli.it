@@ -1,1 +1,5 @@
-<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/e629fe468a4ca3013bda99dfe/d88845295aaf893c67d9a2b77.js");</script>
+---
+import { ANALYTICS } from 'astrowind:config';
+---
+
+<script id="mcjs" is:inline define:vars={{ id: ANALYTICS.vendors.mailchimp.id }}>!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/" + id + ".js");</script>
