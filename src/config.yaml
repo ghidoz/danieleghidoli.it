@@ -72,6 +72,9 @@ analytics:
       id: 'G-03Q07P1G9F'
     mailchimp:
       id: 'e629fe468a4ca3013bda99dfe/d88845295aaf893c67d9a2b77'
+    giscus:
+      category: 'Blog Post Comments'
+      categoryId: 'DIC_kwDONd8WNM4ClXy_'
 
 ui:
   theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"

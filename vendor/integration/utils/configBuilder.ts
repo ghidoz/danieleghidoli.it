@@ -77,6 +77,10 @@ export interface AnalyticsConfig {
     };
     mailchimp: {
       id?: string;
+    };
+    giscus: {
+      category?: string;
+      categoryId?: string;
     }
   };
 }
