@@ -2,7 +2,7 @@
 title: "10 Tips for Living Like a Local in Havana"
 publishDate: 2019-01-09T23:35:22.000Z
 excerpt: "Havana is a unique place, a city frozen in time. I spent there a week, meeting locals, partying in very Cuban places, eating street food..."
-category: "Latina America"
+category: "Latin America"
 tags: 
   - "Cuba"
 image: "~/assets/images/living-like-a-local-havana.jpg"
