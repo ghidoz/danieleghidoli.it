@@ -47,7 +47,15 @@ const metadata = {
             </Fragment>
 
             <Fragment slot="bg">
-                <Image class="absolute top-0 h-screen w-auto bg-gray-400 dark:bg-slate-700" loading="eager" decoding="async" src={SITE.home.cover} alt={SITE.name} />
+                <Image
+                    class="absolute inset-0 h-full w-full object-cover bg-gray-400 dark:bg-slate-700"
+                    layout="fullWidth"
+                    style="height: 100%;"
+                    loading="eager"
+                    decoding="async"
+                    src={SITE.home.cover}
+                    alt={SITE.name}
+                />
             </Fragment>
         </Hero>
     : null
